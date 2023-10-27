@@ -8,11 +8,11 @@ from linebot.models import (MessageEvent,
 import openai
 import json
 
-openai.api_key = "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"
+openai.api_key = "xxx"
 model_use = "text-davinci-003"
 
-channel_secret = "73c7082b047f49e52f03713dbfc1b323"
-channel_access_token = "BV3jKJUrHYQipYv4fwhS5AsOA2VNzpSo1o7nXZpnUVfd31bfts+YQcCXznKaM1YIJ9u6/iFpt7L/idZgnsG08JMqYtDVDwlhXMnBhustVIiVrFc/g/3CUBDaHIdIg1NsDyn9Q5hCNp2h2eOtZ0uc5QdB04t89/1O/w1cDnyilFU="
+channel_secret = "xxx"
+channel_access_token = "xxx"
 
 line_bot_api = LineBotApi(channel_access_token)
 handler = WebhookHandler(channel_secret)
